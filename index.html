@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0,maximum-scale=1.0, user-scalable=no"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Newsletter sign-up form with success message</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/fontawesome.min.css" integrity="sha512-UuQ/zJlbMVAw/UU8vVBhnI4op+/tFOpQZVT+FormmIEhRSCnJWyHiBbEVgM4Uztsht41f3FzVWgLuwzUqOObKw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+  <!-- Sign-up form start -->
+
+  <main>
+    <div class="container">
+      <div class="flex">
+        <div class="left">
+          <h1>Stay updated!</h1>
+
+          <p>Join 60,000+ product managers receiving monthly updates on:</p>
+
+          <ul>
+            <li> <img class="suc" src="./assets/images/icon-success.svg" alt="">  Product discovery and building what matters</li>
+            <li> <img class="suc" src="./assets/images/icon-success.svg" alt="">  Measuring to ensure updates are a success</li>
+            <li> <img class="suc" src="./assets/images/icon-success.svg" alt="">And much more!</li>
+          </ul>
+
+          <form id="form" novalidate>
+            <div class="form-div">
+              <div class="validate">
+                <label for="email ">Email <address></address></label>
+                <span class="retry"></span>
+              </div>
+             
+              <input type="email" name="email" id="email" placeholder=" email@company.com">
+             
+              <button id="btn">
+                Subscribe to monthly newsletter
+              </button>
+            </div>
+
+            
+           
+          </form>
+        </div>
+        <div class="right">
+          
+        </div>
+      </div>
+    </div>
+
+
+
+
+    <div class="thanks">
+      <div class="tt">
+        <img src="./assets/images/icon-success.svg" alt="">
+      </div>
+      <h2>Thanks for subscribing!</h2>
+  
+      <p> A confirmation email has been sent to <span class="mail"></span>. 
+        Please open it and click the button inside to confirm your subscription.
+      </p>
+  
+      <button class="btn2"> Dismiss message</button>
+    </div>
+  </main>
+
+  
+
+  
+
+ 
+ 
+
+  <!-- Success message end -->
+  
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Maobugichi</a>.
+  </div>
+
+
+
+
+  <script src="https://kit.fontawesome.com/16d8e45631.js" crossorigin="anonymous"></script>
+  <script src="./index.js"></script>
+</body>
+</html>
